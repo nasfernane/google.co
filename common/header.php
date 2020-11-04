@@ -19,7 +19,7 @@
 <body>
 
     <header>
-        <a href="index.php"><img src="img/doodle_small.png" /></a> <!-- Logo -->
+        <a href="index.php"><img src="img/doodle_small.png" alt="logo" /></a> <!-- Logo -->
         <nav>
             <div class="barre_recherche">
                 <!-- Script pour la barre de recherche -->
@@ -27,13 +27,13 @@
                     <script async src="https://cse.google.com/cse.js?cx=71cd02d3f6a63f07b"></script>
                 </div>
             </div>
-            <ul id="header_nav">
+            <div id="header_nav">
                 <!-- Barre de navigation -->
                 <a href="index.php?page=accueil">Accueil</a>
                 <a href="index.php?page=referencement">Référencement</a>
                 <a href="index.php?page=eco_conception">Eco-conception web</a>
                 <a href="index.php?page=outils">Outils</a>
                 <a href="index.php?page=contact">Contact</a>
-            </ul>
+            </div>
         </nav>
     </header>
