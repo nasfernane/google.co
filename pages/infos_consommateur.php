@@ -1,5 +1,5 @@
 
-<img src="img/google1.jpg" alt="Bannière de confidentialité" class="images_info"/>
+<img src="/assets/img/google1.jpg" alt="Bannière de confidentialité" class="images_info"/>
 
 <div class="wrap_consommateur">
 <div class="tableau_infos_consommateur">
@@ -24,6 +24,6 @@
 </div>
 </div>
 
-<img src="img/google15.jpg" alt="Bannière de confidentialité" class="images_info"/>
+<img src="/assets/img/google15.jpg" alt="Bannière de confidentialité" class="images_info"/>
     
 </div>    

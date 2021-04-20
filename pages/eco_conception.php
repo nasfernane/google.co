@@ -10,7 +10,7 @@
             Ainsi, les développeurs ont réfléchie conseils à mettre en pratique pour déployer un site éco-friendly.</p>
         </article>
         <aside id=eco_top_aside>
-            <img src="img/pollution_small.jpg" id="image_pollution"/>
+            <img src="/assets/img/pollution_small.jpg" id="image_pollution"/>
             <div>
                 <h3>Les chiffres</h3><br/>
                 <p>L’impact du numérique sur l’environnement est colossal. En effet, comme nous l’évoquions plus haut, la non-utilisation du papier n’est pas gage d’éco-responsabilité. Ainsi, à l’heure actuelle, le numérique émet 3,7% des gaz à effet de serre. D’ici l’année
@@ -39,8 +39,8 @@
         </article>
 
         <aside id="eco_bottom_aside">
-            <img src="img/arbre_small.png" id="image_arbre"/>
-            <img src="img/cadre_small.jpg" id="image_cadre"/>
+            <img src="/assets/img/arbre_small.png" id="image_arbre"/>
+            <img src="/assets/img/cadre_small.jpg" id="image_cadre"/>
         </aside>
 
     

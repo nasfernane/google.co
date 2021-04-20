@@ -5,7 +5,7 @@
 <div id="wrap_accueil">
     <div class="categorie_accueil">
         <div class="accueil_image">
-            <img src="img/google_analytics_small.png" alt="Google Analytics" />
+            <img src="/assets/img/google_analytics_small.png" alt="Google Analytics" />
         </div>
         <div class="onglets_accueil">
             <strong>Référencement</strong><br /><br />
@@ -21,13 +21,13 @@
             <a href="index.php?page=eco_conception">En savoir plus sur l'éco-conception web</a>
         </div>
         <div class="accueil_image">
-            <img src="img/google_eco_conception.jpg" alt="Eco-conception web" />
+            <img src="/assets/img/google_eco_conception.jpg" alt="Eco-conception web" />
         </div>
     </div>
 
     <div class="categorie_accueil">
         <div class="accueil_image">
-            <img src="img/google_outils.jpg" alt="Outils Google" />
+            <img src="/assets/img/google_outils.jpg" alt="Outils Google" />
         </div>
         <div class="onglets_accueil">
             <strong>Outils</strong><br /><br />
@@ -43,13 +43,13 @@
             <a href="index.php?page=contact">Ouvrir le Formulaire de Contact</a>
         </div>
         <div class="accueil_image">
-            <img src="img/google_contact.jpg" alt="Formulaire de contact" />
+            <img src="/assets/img/google_contact.jpg" alt="Formulaire de contact" />
         </div>
     </div>
 
     <div class="categorie_accueil">
         <div class="accueil_image">
-            <img src="img/google_consommateurs.jpg" alt="Outils Infos Consommateurs" />
+            <img src="/assets/img/google_consommateurs.jpg" alt="Outils Infos Consommateurs" />
         </div>
         <div class="onglets_accueil">
             <strong>Infos consommateurs</strong><br /><br />
@@ -65,10 +65,9 @@
             <a href="index.php?page=confidentialite">Accéder aux paramètres de confidentialité</a>
         </div>
         <div class="accueil_image">
-            <img src="img/google_confidentialite.jpg" alt="Formulaire de contact" />
+            <img src="/assets/img/google_confidentialite.jpg" alt="Formulaire de contact" />
         </div>
     </div>
-
 
     <!-- Fenêtre modale -->
     <div id="myModal" class="modal">
@@ -83,6 +82,5 @@
 
     </div>
 
-    <script src="../javascript/scroll-reveal.js"></script>
-    <script src="../javascript/modal.js"></script>
+    
 </div>

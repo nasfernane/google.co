@@ -8,7 +8,7 @@
     <meta name="robots" content="nofollow" />
     <meta name="viewport" content="width=device-width, initial-scale=1.1, viewport-fit=cover">
     <meta name="color-scheme" content="dark light">
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/6c17918ad5.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4"></script>
@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <a href="index.php"><img src="img/doodle_small.png" alt="logo" /></a> <!-- Logo -->
+        <a href="index.php"><img src="/assets/img/doodle_small.png" alt="logo" /></a> <!-- Logo -->
         <nav>
             <div class="barre_recherche">
                 <!-- Script pour la barre de recherche -->

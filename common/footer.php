@@ -1,16 +1,18 @@
-<footer>
-    <nav>
-        <a href="index.php?page=accueil">Accueil</a>
-        <a href="index.php?page=referencement">Référencement</a>
-        <a href="index.php?page=eco_conception">Eco-conception web</a>
-        <a href="index.php?page=outils">Outils</a>
-        <a href="index.php?page=contact">Contact</a>
-        <a href="index.php?page=infos_consommateur">Infos consommateurs</a>
-        <a href="index.php?page=confidentialite">Confidentialité</a>
-    </nav>
-</footer>
+        <footer>
+            <nav>
+                <a href="/accueil">Accueil</a>
+                <a href="/referencement">Référencement</a>
+                <a href="/eco_conception">Eco-conception web</a>
+                <a href="/outils">Outils</a>
+                <a href="/contact">Contact</a>
+                <a href="/infos_consommateur">Infos consommateurs</a>
+                <a href="/confidentialite">Confidentialité</a>
+            </nav>
+        </footer>
 
-
-</body>
+        <script type="text/javascript" src="/assets/javascript/scroll-reveal.js"></script>
+        <script type="text/javascript" src="/assets/javascript/modal.js"></script>
+        <script type="text/javascript" src="/assets/javascript/scroll-menu-eco.min.js"></script>
+    </body>
 
 </html>

@@ -23,9 +23,9 @@ $pageRequest = strtolower(substr($_SERVER['REQUEST_URI'], 1));
 
 // Si il y a une requête URI
 if ($pageRequest) {
-    // et si la page demandée fait partie du tableau...
+    // et si la page demandée fait partie du tableau =>
     if(array_key_exists($pageRequest, $pagesArray)) {
-        // ... on l'importe
+        // => on l'importe
         require("pages/{$pagesArray[$pageRequest]}");
     // sinon, on retourne une page d'erreur 404
     } else {
