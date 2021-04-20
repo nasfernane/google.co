@@ -75,7 +75,7 @@
 
         <!-- Contenu de la fenêtre modale -->
         <div class="modal-content">
-            <span class="close">&times;</span>
+            <span id="closeBtn">&times;</span>
             <h1>Améliorer les services Google</h1> <br />
             <p>Nous développons en permanence de nouvelles technologies et fonctionnalités en vue d'améliorer nos services. Par exemple, nous investissons dans l'intelligence artificielle, qui s'appuie sur le machine learning (apprentissage automatique), pour détecter et bloquer le spam et les logiciels malveillants, et pour vous proposer des fonctionnalités innovantes telles que la traduction simultanée. Dans le cadre de ces améliorations continues, nous pouvons être amenés à ajouter ou supprimer des fonctionnalités, à modifier les limites de nos services, à proposer de nouveaux services et à en abandonner d'autres plus anciens.</p><br />
             <a href="https://policies.google.com/terms?hl=fr&fg=1" target="_blank" rel="noopener noreferrer">En savoir plus</a>
@@ -83,44 +83,6 @@
 
     </div>
 
-    <script>
-        // récupère l'id de la fenêtre dans une variable
-        var modal = document.getElementById("myModal");
-
-
-        // récupère la classe du span pour fermer la fenêtre
-        var span = document.getElementsByClassName("close")[0];
-
-
-        // ferme la fenêtre quand l'utilisateur appuie sur la croix
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-
-        // ferme la fenêtre si l'utilisateur clique n'importe où en dehors
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
-
-    <script>
-        /* script scroll reveal */
-        ScrollReveal().reveal('.modal', {
-            delay: '4000'
-        });
-        ScrollReveal().reveal('.onglets_accueil', {
-            distance: '750px',
-            origin: 'left',
-            delay: '500',
-            opacity: '0.7'
-        });
-        ScrollReveal().reveal('.accueil_image', {
-            delay: '500',
-            origin: 'right',
-            distance: '750px',
-            opacity: '0.7'
-        });
-    </script>
+    <script src="../javascript/scroll-reveal.js"></script>
+    <script src="../javascript/modal.js"></script>
 </div>
