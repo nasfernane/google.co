@@ -5,7 +5,7 @@
     <article id="article_referencement">
         <div id="titre_article">
         <h1> Le référencement </h1>
-        <img src="img/SEO.png" alt="image SEO" />
+        <img src="/assets/img/SEO.png" alt="image SEO" />
         </div>
         <h2> Une transition éco-responsable </h2><br/>
         <p>La mesure de l’empreinte carbone générée par toutes les productions physiques ou numériques sur notre planète est devenue un sujet de société incontournable.</p><br/>
@@ -23,7 +23,7 @@
     </article>
     <!--Aside-->
     <aside id="referencement_aside">
-        <img src="img/adwords.jpeg" alt="image bandeau-referencement-google-mode-emploi" />
+        <img src="/assets/img/adwords.jpeg" alt="image bandeau-referencement-google-mode-emploi" />
         <div>
         <h1> Nouveaux critères </h1>
         <ul>

@@ -17,7 +17,7 @@
         </article>
 
         <aside>
-            <img src="img/performance.png" id="image_performance" alt="illustration d'un test de performance sur speed-insight-google" />
+            <img src="/assets/img/performance.png" id="image_performance" alt="illustration d'un test de performance sur speed-insight-google" />
         </aside>
 
     </section>
@@ -39,12 +39,11 @@
         </article>
 
         <aside id="compare_pixels">
-            <img src="img/white_pixels.png" alt="Consommation des pixels blancs" />
-            <img src="img/black_pixels.png" alt="Consommation des pixels noirs" />
+            <img src="/assets/img/white_pixels.png" alt="Consommation des pixels blancs" />
+            <img src="/assets/img/black_pixels.png" alt="Consommation des pixels noirs" />
         </aside>
 
     </section>
 
 </main>
 
-<script type="text/javascript" src="javascript/scrol-menu-eco.min.js"></script>

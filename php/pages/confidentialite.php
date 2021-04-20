@@ -1,5 +1,5 @@
 <div id="main_wrap">
-    <img src="img/banniere_confidentialite.png" alt="Bannière de confidentialité" class="images_info" />
+    <img src="/assets/img/banniere_confidentialite.png" alt="Bannière de confidentialité" class="images_info" />
     <div class="wrap_consommateur">
         <div class="tableau_infos_consommateur">
             <article class="texte_consommateurs">
@@ -31,5 +31,5 @@
         </div>
     </div>
 
-    <img src="img/banniere_confidentialite_bis.png" alt="Bannière de confidentialité" class="images_info" />
+    <img src="/assets/img/banniere_confidentialite_bis.png" alt="Bannière de confidentialité" class="images_info" />
 </div>
