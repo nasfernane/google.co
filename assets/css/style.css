@@ -3,18 +3,18 @@ DIRECTIVES GENERALES
 ------------------------ */
 @font-face {
     font-family: 'product_sansbold';
-    src: url('../fonts/kit-bold/product_sans_bold-webfont.ttf') format('ttf'),
-        url('../fonts/kit-bold/product_sans_bold-webfont.woff2') format('woff2'),
-        url('../fonts/kit-bold/product_sans_bold-webfont.woff') format('woff');
+    src: url('fonts/kit-bold/product_sans_bold-webfont.ttf') format('ttf'),
+        url('fonts/kit-bold/product_sans_bold-webfont.woff2') format('woff2'),
+        url('fonts/kit-bold/product_sans_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'product_sansregular';
-    src: url('../fonts/kit-regular/product_sans_regular-webfont.woff2') format('woff2'),
-        url('../fonts/kit-regular/product_sans_regular-webfont.woff2') format('woff2'),
-        url('../fonts/kit-regular/product_sans_regular-webfont.woff') format('woff');
+    src: url('fonts/kit-regular/product_sans_regular-webfont.woff2') format('woff2'),
+        url('fonts/kit-regular/product_sans_regular-webfont.woff2') format('woff2'),
+        url('fonts/kit-regular/product_sans_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }

@@ -2,7 +2,7 @@
 <?php 
 
 // import header
-require("common/header.php"); 
+require("./php/common/header.php"); 
 
 // Importation dynamique du contenu principal
 
@@ -26,10 +26,10 @@ if ($pageRequest) {
     // et si la page demandée fait partie du tableau =>
     if(array_key_exists($pageRequest, $pagesArray)) {
         // => on l'importe
-        require("pages/{$pagesArray[$pageRequest]}");
+        require("./php/pages/{$pagesArray[$pageRequest]}");
     // sinon, on retourne une page d'erreur 404
     } else {
-        include('pages/erreur-404.php');
+        include('./php/pages/erreur-404.php');
     }
 // En l'absence de requête URI, retourne la landing page
 } else {
@@ -37,7 +37,7 @@ if ($pageRequest) {
 }
 
 // import footer
-require("common/footer.php"); 
+require("./php/common/footer.php"); 
 
     
    
