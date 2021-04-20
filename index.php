@@ -1,4 +1,3 @@
-<!-- Header-->
 <?php 
 
 // import header
@@ -38,6 +37,3 @@ if ($pageRequest) {
 
 // import footer
 require("./php/common/footer.php"); 
-
-    
-   
