@@ -7,14 +7,14 @@ require("./php/common/header.php");
 
 // Tableau qui définit les pages existantes et autorisées
 $pagesArray = array(
-'home' => 'home.php',
-'accueil' => 'accueil.php',
-'confidentialite' => 'confidentialite.php',
-'contact' => 'contact.php',
-'eco_conception' => 'eco_conception.php',
-'infos_consommateur' => 'infos_consommateur.php',
-'outils' => 'outils.php',
-'referencement' => 'referencement.php'
+    'home' => 'home.php',
+    'accueil' => 'accueil.php',
+    'confidentialite' => 'confidentialite.php',
+    'contact' => 'contact.php',
+    'eco_conception' => 'eco_conception.php',
+    'infos_consommateur' => 'infos_consommateur.php',
+    'outils' => 'outils.php',
+    'referencement' => 'referencement.php'
 );
 
 // récupère l'URI fourni, soustrait le slash et transforme en caractères minuscules
