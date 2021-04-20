@@ -1,4 +1,3 @@
-<!-- Header-->
 <?php 
 
 // import header
@@ -29,7 +28,7 @@ if ($pageRequest) {
         require("./php/pages/{$pagesArray[$pageRequest]}");
     // sinon, on retourne une page d'erreur 404
     } else {
-        include('./php/pages/erreur-404.php');
+        require('./php/pages/erreur-404.php');
     }
 // En l'absence de requête URI, retourne la landing page
 } else {
